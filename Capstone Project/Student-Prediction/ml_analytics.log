@@ -1,0 +1,42 @@
+2025-10-09 13:57:17,405 - __main__ - INFO - Starting initial model training...
+2025-10-09 13:57:17,409 - __main__ - INFO - ================================================================================
+2025-10-09 13:57:17,409 - __main__ - INFO - STARTING COMPREHENSIVE MODEL TRAINING PIPELINE
+2025-10-09 13:57:17,409 - __main__ - INFO - ================================================================================
+2025-10-09 13:57:17,409 - __main__ - INFO - Loading dataset from student-mat.csv
+2025-10-09 13:57:17,423 - __main__ - INFO - Dataset loaded: 395 records, 33 features
+2025-10-09 13:57:17,445 - __main__ - INFO - Preprocessing complete: Train=316, Test=79
+2025-10-09 13:57:17,445 - __main__ - INFO - Training Random Forest...
+2025-10-09 13:58:55,689 - __main__ - INFO - Training Decision Tree...
+2025-10-09 13:58:57,871 - __main__ - INFO - Training SVM...
+2025-10-09 13:58:59,630 - __main__ - INFO - ================================================================================
+2025-10-09 13:58:59,630 - __main__ - INFO - TRAINING COMPLETE: 3 models trained successfully
+2025-10-09 13:58:59,630 - __main__ - INFO - ================================================================================
+2025-10-09 13:58:59,730 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.172.124.240:5000
+2025-10-09 13:58:59,730 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-09 13:58:59,738 - werkzeug - INFO -  * Restarting with stat
+2025-10-09 13:59:04,948 - __main__ - INFO - Starting initial model training...
+2025-10-09 13:59:04,948 - __main__ - INFO - ================================================================================
+2025-10-09 13:59:04,948 - __main__ - INFO - STARTING COMPREHENSIVE MODEL TRAINING PIPELINE
+2025-10-09 13:59:04,948 - __main__ - INFO - ================================================================================
+2025-10-09 13:59:04,948 - __main__ - INFO - Loading dataset from student-mat.csv
+2025-10-09 13:59:04,959 - __main__ - INFO - Dataset loaded: 395 records, 33 features
+2025-10-09 13:59:04,974 - __main__ - INFO - Preprocessing complete: Train=316, Test=79
+2025-10-09 13:59:04,976 - __main__ - INFO - Training Random Forest...
+2025-10-09 14:00:38,273 - __main__ - INFO - Training Decision Tree...
+2025-10-09 14:00:40,554 - __main__ - INFO - Training SVM...
+2025-10-09 14:00:42,755 - __main__ - INFO - ================================================================================
+2025-10-09 14:00:42,755 - __main__ - INFO - TRAINING COMPLETE: 3 models trained successfully
+2025-10-09 14:00:42,755 - __main__ - INFO - ================================================================================
+2025-10-09 14:00:42,794 - werkzeug - WARNING -  * Debugger is active!
+2025-10-09 14:00:42,824 - werkzeug - INFO -  * Debugger PIN: 124-647-380
+2025-10-09 14:00:43,482 - werkzeug - INFO - 10.172.124.240 - - [09/Oct/2025 14:00:43] "GET / HTTP/1.1" 200 -
+2025-10-09 14:01:04,537 - werkzeug - INFO - 127.0.0.1 - - [09/Oct/2025 14:01:04] "GET / HTTP/1.1" 200 -
+2025-10-09 14:01:39,967 - werkzeug - INFO - 127.0.0.1 - - [09/Oct/2025 14:01:39] "GET /api/models HTTP/1.1" 200 -
+2025-10-09 14:01:59,200 - werkzeug - INFO - 127.0.0.1 - - [09/Oct/2025 14:01:59] "GET /api/model/Decision%20Tree HTTP/1.1" 200 -
+2025-10-09 14:02:53,896 - werkzeug - INFO - 127.0.0.1 - - [09/Oct/2025 14:02:53] "GET /api/compare/Random%20Forest/Decision%20Tree HTTP/1.1" 200 -
+2025-10-09 14:02:56,207 - werkzeug - INFO - 127.0.0.1 - - [09/Oct/2025 14:02:56] "GET /api/compare/Random%20Forest/Decision%20Tree HTTP/1.1" 200 -
+2025-10-09 14:02:59,921 - werkzeug - INFO - 127.0.0.1 - - [09/Oct/2025 14:02:59] "GET /api/compare/Random%20Forest/Decision%20Tree HTTP/1.1" 200 -
+2025-10-09 14:03:00,331 - werkzeug - INFO - 127.0.0.1 - - [09/Oct/2025 14:03:00] "GET /api/compare/Random%20Forest/Decision%20Tree HTTP/1.1" 200 -
